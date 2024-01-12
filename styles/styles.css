@@ -4,6 +4,7 @@ html {
 }
 p {
   color: #727272;
+  line-height: 26px;
 }
 button {
   width: 180px;
@@ -68,9 +69,46 @@ nav li a {
 .banner-image img {
   width: 90%;
 }
-.banner {
-  /* text-align: center; */
+/* main section styles */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
 }
+/* team section styles */
+.teams-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5.3rem;
+}
+
+.teams-image-container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.teams-content {
+  padding: 4.4rem;
+}
+.teams-content h3 {
+  width: 33.5rem;
+  font-size: 2.8rem;
+}
+.teams-content p {
+  width: 29.25rem;
+}
+.type-1 {
+  color: #727272;
+  font-weight: 500;
+}
+.type-2 {
+  color: #131313;
+  font-weight: 700;
+}
+.type-3 {
+  color: #ff900e;
+}
+
 /* responsive styles */
 /* mobile devices */
 @media screen and (max-width: 576px) {

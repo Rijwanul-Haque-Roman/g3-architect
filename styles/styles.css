@@ -1,4 +1,7 @@
 /* common shared styles */
+html {
+  margin: 0;
+}
 p {
   color: #727272;
 }
@@ -48,12 +51,53 @@ nav li a {
 .banner-content {
   max-width: 800px;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 50px;
+}
+.banner-content button {
+  margin-top: 30px;
 }
 .banner-content h1 {
   font-size: 4rem;
   color: #131313;
 }
-.banner-content p {
-  /* color: #727272; */
+
+.banner-image {
+  text-align: center;
+  width: auto;
+}
+.banner-image img {
+  width: 90%;
+}
+.banner {
+  /* text-align: center; */
+}
+/* responsive styles */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 10px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav li {
+    margin-right: 30px;
+  }
+  .banner-content h1 {
+    font-size: 2rem;
+  }
+  .banner-image img {
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
+
+/* tablets or medium devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  nav {
+    flex-direction: column;
+  }
+  header {
+    padding: 10px;
+  }
 }

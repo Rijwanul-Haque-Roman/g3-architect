@@ -9,6 +9,7 @@ html {
 p {
   color: #727272;
   line-height: 26px;
+  font-size: 1rem;
 }
 button {
   width: 180px;
@@ -114,6 +115,66 @@ main {
 .type-3 {
   color: #ff900e;
 }
+/* features section styles */
+.features {
+  margin-top: 8.125rem;
+  display: flex;
+  gap: 9rem;
+}
+.features-details-container > h3 {
+  border-left: 5px solid #ff900e;
+  padding-left: 1.25rem;
+  margin: 2.5rem 0 0;
+}
+.feature-card {
+  width: 540px;
+  height: 130px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 1.8rem;
+  margin-bottom: 1.25rem;
+}
+.feature-card h3 {
+  color: #131313;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+.featured-img {
+  position: relative;
+}
+.featured-img img {
+  height: 80%;
+}
+.ten-years {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 342px;
+  height: 200px;
+  border-radius: 8px;
+  background: #ff900e;
+  bottom: 115px;
+  right: 100px;
+}
+.ten-years h3 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 70px;
+  margin: 0;
+}
+.ten-years p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  margin: 0;
+}
 /* facts section styles */
 .card-container {
   display: flex;
@@ -121,6 +182,9 @@ main {
 }
 .facts {
   margin-bottom: 175px;
+}
+.facts h3 {
+  margin-top: 0;
 }
 .facts > p {
   width: 33.87rem;

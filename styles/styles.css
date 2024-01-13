@@ -1,4 +1,8 @@
 /* common shared styles */
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
 html {
   margin: 0;
 }
@@ -17,8 +21,10 @@ button {
   font-size: 1.15rem;
   font-weight: 600;
 }
-* {
-  font-family: "Work Sans", sans-serif;
+.heading-font {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
 }
 /* header styles */
 header {
@@ -108,7 +114,30 @@ main {
 .type-3 {
   color: #ff900e;
 }
-
+/* facts section styles */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.facts > p {
+  width: 33.87rem;
+  margin-bottom: 6.25rem;
+}
+.card {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 36px 60px;
+}
+.card h3 {
+  color: #424242;
+  font-size: 45px;
+  font-weight: 600;
+  margin: 0;
+}
+.card p {
+  margin: 0;
+}
 /* responsive styles */
 /* mobile devices */
 @media screen and (max-width: 576px) {

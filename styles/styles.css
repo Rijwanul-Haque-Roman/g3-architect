@@ -174,6 +174,18 @@ main {
   .teams-content p {
     width: auto;
   }
+  .card-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+  .facts > p {
+    width: 90vw;
+  }
+  .facts h3,
+  p {
+    padding-left: 20px;
+  }
 }
 
 /* tablets or medium devices */
@@ -191,5 +203,17 @@ main {
   .teams-content {
     width: 90vw;
     padding: 10px;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .facts > p {
+    width: 90vw;
+  }
+  .facts h3,
+  p {
+    padding-left: 20px;
   }
 }
